@@ -11,6 +11,7 @@
   --text: #10182b;
   --text-secondary: #5b6b84;
   --border: #e3e8f2;
+  --gray: #9e9e9e33;
 
   --font-display: "Sora", "Pretendard", sans-serif;
   --font-body: "Inter", "Pretendard", sans-serif;
@@ -186,8 +187,6 @@ button:focus-visible {
   color: var(--text-secondary);
   font-size: 1.05rem;
   margin: 0 0 32px;
-  word-break: keep-all;
-  overflow-wrap: break-word;
 }
 
 .hero-actions {
@@ -282,6 +281,78 @@ button:focus-visible {
 }
 
 /* =========================================
+   Tech stack
+========================================= */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.tech-card {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-card:hover {
+  border-color: var(--blue-tint-strong);
+  box-shadow: var(--shadow-card);
+}
+
+.tech-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.tech-icon {
+  display: inline-block;
+  font-size: 40px;
+  color: var(--blue);
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.tech-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0;
+  color: var(--blue-dark);
+}
+
+.tech-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-list li {
+  background: var(--gray);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 13px;
+  border-radius: 999px;
+}
+
+.tech-list li:hover{
+  background: var(--blue-tint);
+  color: var(--blue-dark);
+}
+
+@media (max-width: 720px) {
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================
    Project grid
 ========================================= */
 .project-grid {
@@ -314,6 +385,7 @@ button:focus-visible {
     opacity: 0;
     transform: translateY(14px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
