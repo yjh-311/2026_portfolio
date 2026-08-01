@@ -35,4 +35,12 @@ const PROJECTS = [
     demoUrl: null,
     codeUrl: 'https://github.com/yjh-311/music-clustering/tree/main',
   },
+  {
+    title: '도서 쇼핑몰',
+    description: 'Jsp를 사용해 제작한 도서 쇼핑몰 프로젝트입니다.',
+    image: 'images/book_store.png',
+    tags: ['Jsp', 'Html', 'Javascript', 'CSS', 'MySQL', 'BootStrap'],
+    demoUrl: null,
+    codeUrl: 'https://github.com/yjh-311/book-store',
+  },
 ]
