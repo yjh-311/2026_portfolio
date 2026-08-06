@@ -22,7 +22,7 @@ const PROJECTS = [
     title: 'React 기반 쇼핑몰',
     description: 'React를 사용하여 구현한 공예품 쇼핑몰입니다.',
     image: 'images/react_shop.png',
-    tags: ['React', 'MySQL', 'Node.js', 'Express', 'JavaScript'],
+    tags: ['React', 'MySQL', 'Node.js', 'Express', 'JavaScript', 'Axios'],
     demoUrl: null,
     codeUrl: 'https://github.com/yjh-311/2025_react_shop',
   },
@@ -39,8 +39,15 @@ const PROJECTS = [
     title: '도서 쇼핑몰',
     description: 'Jsp를 사용해 제작한 도서 쇼핑몰 프로젝트입니다.',
     image: 'images/book_store.png',
-    tags: ['Jsp', 'Html', 'Javascript', 'CSS', 'MySQL', 'BootStrap'],
+    tags: ['Jsp', 'Html', 'Javascript', 'CSS', 'Scss', 'BootStrap'],
     demoUrl: null,
     codeUrl: 'https://github.com/yjh-311/book-store',
-  },
+  },  {
+    title: '포트폴리오 사이트',
+    description: 'Vue3, Ajax를 사용하여 제작한 포트폴리오 사이트 입니다.',
+    image: 'images/portfolio.png',
+    tags: ['Html', 'Javascript', 'CSS', 'Vue.js 3', 'Firebase Realtime Database'],
+    demoUrl: 'https://yjh-311.github.io/portfolio/',
+    codeUrl: 'https://github.com/yjh-311/portfolio',
+  }
 ]
