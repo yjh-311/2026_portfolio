@@ -42,12 +42,37 @@ const PROJECTS = [
     tags: ['Jsp', 'Html', 'Javascript', 'CSS', 'Scss', 'BootStrap'],
     demoUrl: null,
     codeUrl: 'https://github.com/yjh-311/book-store',
-  },  {
+  },  
+  {
     title: '포트폴리오 사이트',
-    description: 'Vue3, Ajax를 사용하여 제작한 포트폴리오 사이트 입니다.',
+    description: 'Vue3, Ajax를 사용하여 제작한 포트폴리오 사이트 입니다. 현재는 Firebase RealTime Database의 정책 변화에 의해 일부 기능이 사용 불가능 합니다.',
     image: 'images/portfolio.png',
     tags: ['Html', 'Javascript', 'CSS', 'Vue.js 3', 'Firebase Realtime Database'],
     demoUrl: 'https://yjh-311.github.io/portfolio/',
     codeUrl: 'https://github.com/yjh-311/portfolio',
+  },
+  {
+    title: '도서 관리 앱 Lnmu',
+    description: 'Lmnu는 사용자가 보유한 도서의 정보를 관리할 수 있는 도서 관리 앱 입니다. 도서 관리 기능을 사용해 중복 구매를 방지하거나 어떤 책을 읽었는지 기록이 가능합니다.',
+    image: '#',
+    tags: ['Java', 'Xml'],
+    demoUrl: null,
+    codeUrl: '#',
+  },
+  {
+    title: '학과 홈페이지 전반 제작',
+    description: '이 프로젝트는 Spring MVC를 사용하여 학과 홈페이지를 제작한 작업입니다. 주요 기능으로는 공지사항, FAQ, 자유 게시판이 있으며, 글 작성, 수정, 삭제 및 댓글 작성, 수정, 삭제를 제작하였습니다.',
+    image: '#',
+    tags: ['Spring MVC', 'Java', 'JavaScript', 'Html','CSS','Bootstrap','MYSql'],
+    demoUrl: null,
+    codeUrl: '#',
+  },
+    {
+    title: '학과 홈페이지 후반 제작',
+    description: '이 프로젝트는 다른 사람이 제작한 학과 홈페이지 전반부를 이어받아 후반부를 완성하는 작업이였습니다. 주요 추가 기능으로는 로그인, 로그아웃, 회원가입, 회원 정보 수정, 나의 게시글 보기 등이 포함되었습니다.',
+    image: '#',
+    tags: ['Spring MVC', 'Java', 'JavaScript', 'Html','CSS','Bootstrap','MYSql'],
+    demoUrl: null,
+    codeUrl: '#',
   }
 ]
